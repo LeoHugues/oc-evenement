@@ -1,0 +1,198 @@
+{% extends "base.html.twig" %}
+
+{% block title %}Bienvenue{% endblock title %}
+
+{% block body %}
+
+    <!-- Masthead -->
+    <header class="masthead">
+        <div class="container h-100">
+            <div class="row h-100 align-items-center justify-content-center text-center">
+                <div class="col-lg-10 align-self-end">
+                    <img class="mb-3 mb-lg-0" src="{{ asset('img/logo-evenement.png') }}" alt="">
+                    <h1 class="text-uppercase">OC'EVENEMENT</h1>
+                    <hr class="divider my-4">
+                </div>
+                <div class="col-lg-8 align-self-baseline">
+                    <p class="text-light mb-5">Venez profiter de nos évenements sur-mesure en pleine nature, au coeur du Pic Saint Saint Loup, dans le petit village de Saint Jean de Cuculles</p>
+                    <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">En savoir plus</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+
+    <!-- About Section -->
+    <section class="page-section bg-primary" id="about">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="text-white mt-0">L'événementiel, une spécialité</h2>
+                    <hr class="divider light my-4">
+                    <p class="text-light font-italic mb-4">
+                        "Nous avons pour vocations d'imaginer et de construire ensemble des événements innovant et corespondant à un groupe.
+                        L'idée est de se retouver tous ensemble, dans la convivialité, dans la proximité, dans un espace chaleureux et en pleine nature pour vivre une expérience de groupe unique."</p>
+                    <a class="btn btn-light btn-xl js-scroll-trigger" href="#services">C'est parti !</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="page-section bg-light" id="services">
+        <div class="container">
+            <h2 class="text-center mt-0">LES PRESTA</h2>
+            <hr class="divider my-4">
+            <div class="row">
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="fas fa-4x text-primary mb-4 logo-service logo-incentive"></div>
+                        <h3 class="h4 mb-2">Incentive building</h3>
+                        <p class="text-muted mb-0">Les journées incentives visent à renforcer les liens d'une équipe</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="fas fa-4x text-primary mb-4 logo-service logo-inte"></div>
+                        <h3 class="h4 mb-2">Journées intégration</h3>
+                        <p class="text-muted mb-0">Les journées d'intégration s'adressent plutôt aux écoles</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="fas fa-4x text-primary mb-4 logo-service logo-sur-mesure"></div>
+                        <h3 class="h4 mb-2">Evénement personalisé</h3>
+                        <p class="text-muted mb-0">Evénement et animations construit sur-mesure</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 text-center">
+                    <div class="mt-5">
+                        <div class="fas fa-4x text-primary mb-4 logo-service logo-open-event"></div>
+                        <h3 class="h4 mb-2">Evénement ouvert</h3>
+                        <p class="text-muted mb-0">Nous organisons également des événements ouvert au public </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Section -->
+    <section id="portfolio">
+        <div class="container-fluid p-0">
+            <div class="row no-gutters">
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/1.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/1.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Demi-journée
+                            </div>
+                            <div class="project-name">
+                                OC'LANTA
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/2.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/2.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/3.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/3.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/4.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/4.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/5.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/5.jpg" alt="">
+                        <div class="portfolio-box-caption">
+                            <div class="project-category text-white-50">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </a>
+                </div>
+                <div class="col-lg-4 col-sm-6">
+                    <a class="portfolio-box" href="img/portfolio/fullsize/6.jpg">
+                        <img class="img-fluid" src="img/portfolio/thumbnails/6.jpg" alt="">
+                        <div class="portfolio-box-caption p-3">
+                            <div class="project-category text-white-50">
+                                Category
+                            </div>
+                            <div class="project-name">
+                                Project Name
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call to Action Section -->
+    <section class="page-section bg-blue text-white">
+        <div class="container text-center">
+            <h2 class="mb-4">Venez nous rendre visite, ou appelez nous !</h2>
+            <a class="btn btn-light btn-xl" href="#contact">Contact</a>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="page-section bg-light" id="contact">
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 text-center">
+                    <h2 class="mt-0">Rentrons en contact !</h2>
+                    <hr class="divider my-4">
+                    <p class="text-muted mb-5">Vous souhaitez organiser un événement pour votre entreprise ? Ecrivez-nous, ou appelez nous, nous pourrons en discuter.</p>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 ml-auto text-center">
+                    <i class="fas fa-phone fa-3x mb-3 text-muted"></i>
+                    <div>+336 19 98 53 86</div>
+                </div>
+                <div class="col-lg-4 mr-auto text-center">
+                    <i class="fas fa-envelope fa-3x mb-3 text-muted"></i>
+                    <!-- Make sure to change the email address in anchor text AND the link below! -->
+                    <a class="d-block" href="mailto:contact@yourwebsite.com">evenement@oc-aventures.com</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+{% endblock body %}
