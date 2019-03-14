@@ -10842,3 +10842,11 @@ p.citation {
   border-radius: 50%;
   border: solid 4px #f8f9fa;
 }
+
+h2.key-word {
+  font-family: westfalia;
+  color: #212529;
+  font-size: 2em;
+  text-transform: uppercase;
+  text-align: right;
+}
