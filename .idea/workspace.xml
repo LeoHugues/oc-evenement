@@ -2,6 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9fdcedf3-9ed3-4181-bd42-7d25396f06a3" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/public/img/Les-Filles-du-Pic-Traiteur-en-Pic-Saint-Loup-Logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/couscous.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/dutoutcuit.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/macaronade.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/paella.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/public/img/traiteur-les-filles-du-pic.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/css/creative.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/css/creative.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/templates/Vitrine/home.html.twig" beforeDir="false" afterPath="$PROJECT_DIR$/templates/Vitrine/home.html.twig" afterDir="false" />
     </list>
@@ -16,11 +23,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="586">
-              <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
+            <state relative-caret-position="199">
+              <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/Vitrine/home.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1">
+              <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -28,64 +44,16 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/creative.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="10841" column="21" selection-start-line="10841" selection-start-column="21" selection-end-line="10841" selection-end-column="21" />
+            <state relative-caret-position="6135">
+              <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/templates/Vitrine/home.html.twig">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="341">
-              <caret line="139" column="82" selection-start-line="139" selection-start-column="82" selection-end-line="139" selection-end-column="82" />
-              <folding>
-                <element signature="e#1028#1931#0#HTML" />
-                <element signature="e#1967#3941#0#HTML" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/magnific-popup/jquery.magnific-popup.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="356">
-              <caret line="883" column="23" selection-start-line="883" selection-start-column="23" selection-end-line="883" selection-end-column="23" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/js/creative.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="3" column="41" selection-start-line="3" selection-start-column="41" selection-end-line="3" selection-end-column="41" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/vendor/magnific-popup/magnific-popup.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/public/img/bg-masthead.jpg">
-          <provider selected="true" editor-type-id="images" />
         </entry>
       </file>
     </leaf>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>#main</find>
-      <find>#mainNav .navbar-brand</find>
-      <find>header.masthead p</find>
       <find>header.masthead</find>
       <find>body</find>
       <find>/</find>
@@ -113,6 +81,9 @@
       <find>h1</find>
       <find>h1 {</find>
       <find>upp</find>
+      <find>.team-choc img</find>
+      <find>_</find>
+      <find>font-size: 1.5</find>
     </findStrings>
     <replaceStrings>
       <replace>9b2915</replace>
@@ -318,15 +289,15 @@
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/public/vendor/fontawesome-free/svgs/solid" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/public/img" />
       <recent name="$PROJECT_DIR$/public/font" />
       <recent name="$PROJECT_DIR$/public/img/svg" />
       <recent name="$PROJECT_DIR$/public/vendor/fontawesome-free/svgs/brands" />
       <recent name="$PROJECT_DIR$/public/vendor/fontawesome-free/svgs/regular" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/public/vendor/fontawesome-free/svgs/solid" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -366,18 +337,20 @@
       <workItem from="1552408651872" duration="9338000" />
       <workItem from="1552465615965" duration="20001000" />
       <workItem from="1552550557031" duration="3836000" />
-      <workItem from="1552558646223" duration="17164000" />
+      <workItem from="1552558646223" duration="17237000" />
+      <workItem from="1552636823639" duration="9102000" />
+      <workItem from="1552980899399" duration="2408000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="55582000" />
+    <option name="totallyTimeSpent" value="67165000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1613" height="1025" extended-state="6" />
+    <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19463944" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.20641948" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -390,7 +363,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.28794643" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.26565874" />
       <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -515,15 +488,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/vendor/magnific-popup/magnific-popup.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
+        <state relative-caret-position="-3884">
           <caret line="41" column="14" selection-start-line="41" selection-start-column="14" selection-end-line="41" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="586">
-          <caret line="57" column="42" selection-start-line="57" selection-start-column="42" selection-end-line="57" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -543,19 +509,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/creative.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="10841" column="21" selection-start-line="10841" selection-start-column="21" selection-end-line="10841" selection-end-column="21" />
+        <state relative-caret-position="6135">
+          <caret line="409" column="1" selection-start-line="409" selection-start-column="1" selection-end-line="409" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/Vitrine/home.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="341">
-          <caret line="139" column="82" selection-start-line="139" selection-start-column="82" selection-end-line="139" selection-end-column="82" />
-          <folding>
-            <element signature="e#1028#1931#0#HTML" />
-            <element signature="e#1967#3941#0#HTML" />
-          </folding>
+        <state relative-caret-position="1">
+          <caret line="198" column="26" selection-start-line="198" selection-start-column="26" selection-end-line="198" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/base.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="199">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
         </state>
       </provider>
     </entry>

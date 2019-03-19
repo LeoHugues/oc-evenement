@@ -10850,3 +10850,12 @@ h2.key-word {
   text-transform: uppercase;
   text-align: right;
 }
+
+.presta-step p {
+  text-align: justify;
+}
+
+.img-border {
+  border-radius: 50%;
+  border: solid 4px #212529;
+}
